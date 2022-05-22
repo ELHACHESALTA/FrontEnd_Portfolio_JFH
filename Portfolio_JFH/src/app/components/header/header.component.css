@@ -25,7 +25,6 @@ img{
     margin: 0.2em;
 }
 
-/*--- Para la vista de celular ---*/
 @media (max-width: 575px){
     .container{
         flex-direction: column;
