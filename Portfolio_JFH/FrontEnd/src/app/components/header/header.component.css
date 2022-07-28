@@ -1,5 +1,5 @@
 div{
-    background-color: #00030C;
+    background-color: #111111;
 }
 
 .container{
@@ -9,21 +9,51 @@ div{
 }
 
 .social{
-    margin-right: 0.5em;
+    margin-right: 25px;
 }
 
 #logoAP{
     width: 150px;
+    filter: contrast(24%);
 }
 
-img{
-    width: 50px;
+#logoAP:hover{
+    width: 150px;
+    filter: contrast(24%) brightness(50.5%);
+    transition: all 0.5s;
 }
 
 .btn{
     border-width: medium;
-    margin: 0.2em;
+    color: #9E9E9E;
+    border-color: #9E9E9E;
+    background-color: transparent;
 }
+
+.btn:hover{
+    border-width: medium;
+    color: #505050;
+    border-color: #505050;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.bi {
+    font-size: 30px;
+    vertical-align: -8px;
+    color: #9E9E9E;
+    margin-right: 20px;
+}
+
+.bi:hover {
+    font-size: 30px;
+    vertical-align: -8px;
+    color: #505050;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+/*
 
 @media (max-width: 575px){
     .container{
@@ -36,7 +66,9 @@ img{
         align-items: center;
     }
     
-    .social img{
-        margin: 0.2em;
+    .bi{
+        margin: 20px;
     }
 }
+
+*/
