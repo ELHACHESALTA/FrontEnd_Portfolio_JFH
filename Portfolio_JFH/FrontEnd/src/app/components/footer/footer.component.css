@@ -1,14 +1,15 @@
 .row{
     background-color:  #111111;
     padding-top: 40px;
+    min-width: 500px;
 }
 
 footer{
-    color: #FFFFFF;
+    color: #9E9E9E;
     font-size: 14px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 2px -2px 5px #999999;
+    box-shadow: 2px -2px 5px #9E9E9E;
     padding-top: 15px;
 }

@@ -1,5 +1,5 @@
 .row {
-    min-width: 450px;
+    min-width: 500px;
 }
 
 div{
@@ -19,6 +19,7 @@ div{
 #logoAP{
     width: 150px;
     filter: contrast(24%);
+    padding-left: 25px;
 }
 
 #logoAP:hover{

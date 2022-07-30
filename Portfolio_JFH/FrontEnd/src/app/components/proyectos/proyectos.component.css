@@ -1,7 +1,12 @@
 .row{
-    padding: 20px;
+    padding: 25px 25px 0px 25px;
+    min-width: 500px;
     background-color: #111111;
-    color: #FFFFFF;
+    color: #9E9E9E;
+}
+
+b {
+    font-size: 25px;
 }
 
 .container{

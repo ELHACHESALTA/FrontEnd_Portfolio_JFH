@@ -1,12 +1,41 @@
 .row{
-    padding: 20px;
+    padding: 25px 25px 0px 25px;
+    min-width: 500px;
 }
 
 div{
     background-color: #111111;
-    color: #FFFFFF;
+    color: #9E9E9E;
 }
 
-h1, h3{
-    display: inline;
+.titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border-width: medium;
+    color: #9E9E9E;
+    border-color: #9E9E9E;
+    background-color: transparent;
+    height: 42px;
+}
+
+.btn:hover{
+    border-width: medium;
+    color: #505050;
+    border-color: #505050;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+b {
+    font-size: 25px;
+    color: #9E9E9E;
+}
+
+td {
+    color: #9E9E9E;
+    vertical-align: middle;
+    padding-right: 0px;
 }

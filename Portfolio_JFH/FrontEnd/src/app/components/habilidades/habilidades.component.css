@@ -1,5 +1,10 @@
 .row{
+    padding: 25px 25px 0px 25px;
+    min-width: 500px;
     background-color: #111111;
-    color: #FFFFFF;
-    padding: 20px;
+    color: #9E9E9E;
+}
+
+b {
+    font-size: 25px;
 }
