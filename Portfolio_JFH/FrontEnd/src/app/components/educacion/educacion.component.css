@@ -15,16 +15,28 @@ div{
 
 .btn{
     border-width: medium;
-    color: #9E9E9E;
-    border-color: #9E9E9E;
     background-color: transparent;
     height: 42px;
 }
 
+.btn-dark {
+    color: #6894DD;
+    border-color: #6894DD;
+}
+
+.btn-light {
+    color: #E6E054;
+    border-color: #E6E054;
+}
+
+.btn-danger {
+    color: #B0372E;
+    border-color: #B0372E;
+}
+
 .btn:hover{
     border-width: medium;
-    color: #505050;
-    border-color: #505050;
+    filter: brightness(50.5%);
     background-color: transparent;
     transition: all 0.5s;
 }

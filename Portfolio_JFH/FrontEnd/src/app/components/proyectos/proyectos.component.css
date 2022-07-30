@@ -11,13 +11,16 @@ b {
 
 .container{
     width: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .texto1, .imagen1{
-    display: inline-block;
     text-align: justify;
+    align-self: center;
 }
 
 .img-proyecto1{
     box-shadow: 10px 10px 30px #999999;
+    max-height: 250px;
 }

@@ -30,15 +30,29 @@ div{
 
 .btn{
     border-width: medium;
-    color: #9E9E9E;
-    border-color: #9E9E9E;
     background-color: transparent;
+}
+
+.btnLogIn {
+    color: #85B249;
+    border-color: #85B249;
+}
+
+.btnLogIn:hover {
+    filter: brightness(50.5%);
+}
+
+.btnLogOut {
+    color: #B0372E;
+    border-color: #B0372E;
+}
+
+.btnLogOut:hover {
+    filter: brightness(50.5%);
 }
 
 .btn:hover{
     border-width: medium;
-    color: #505050;
-    border-color: #505050;
     background-color: transparent;
     transition: all 0.5s;
 }
